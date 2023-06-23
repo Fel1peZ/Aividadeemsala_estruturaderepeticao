@@ -1,0 +1,31 @@
+programa
+{
+	inclua biblioteca Util
+ --> u
+	
+inteiro sorteados = 0
+	inteiro opcao = 1
+	inteiro sorte
+	funcao inicio()
+{
+				
+   
+		enquanto( opcao == 1){  
+		  escreva("quer sortear um numero? //responda  1 pra sim,  2 pra nao \n \n")
+            leia(opcao)
+         escolha(opcao){
+
+		caso 1:
+		
+		sorte = u.sorteia(1,1000000000)
+		escreva(sorte ," ")
+		sorteados = sorteados + 1 
+		pare
+
+		caso 2:
+		escreva("\n \n voce sorteou ", sorteados ," vezes")
+		pare
+		}
+		}
+	}
+}
