@@ -1,0 +1,14 @@
+programa
+{
+	
+inteiro numero1 = 20
+	funcao inicio()
+	{
+	     
+	
+		enquanto(numero1 >= 1){
+		escreva(numero1 )
+		numero1 = numero1 - 1}
+
+	}
+}
